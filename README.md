@@ -46,3 +46,13 @@ andvipgroup@gmail.com
     <img alt='Get it on Google Play' height='90' src='https://github.com/andvipgroup/VCamera/blob/main/gp.png'/>
   </a>
 </p>
+
+## Development
+
+The project depends on a submodule named `opensdk`. After cloning this repository, initialize the module with:
+
+```bash
+git submodule update --init opensdk
+```
+
+For an overview of the next generation architecture based on **SpaceCore**, see [docs/vcamera4_plan.md](docs/vcamera4_plan.md).
